@@ -1,0 +1,100 @@
+Node
+
+intallar typescript
+
+npm install typescript
+npx tsc --init
+
+executar typescript
+
+npx ts-node src/server.ts
+npm install ts-node-dev -D
+
+Imagens
+npm install multer
+npm install @types/multer -D
+
+Validação
+npm install celebrate
+npm install @types/hapi__joi -D
+
+
+Banco de dados
+
+npm install knex
+npm install sqlite3
+
+Migrations
+importante para conseguir rodar o banco em outra maquina 
+npx knex migrate:latest --knexfile knexfile.ts migrate:latest
+
+Configurar Sites Que terão acesso a API
+npm install cors
+npm install @types/cors -D
+
+React JS
+
+npx create-react-app web --template=typescript
+
+Icones
+npm install react-icons
+
+Routes 
+npm install react-router-dom
+
+Mapas
+npm install leaflet react-leaflet
+npm install @types/react-leaflet -D
+
+Link a API com o front-end
+npm install axios
+
+Imagens
+npm install react-dropzone
+
+
+
+Mobile
+
+Expo
+npm install -g expo-cli
+expo init mobile
+Caso de erro ao iniciar Set-ExecutionPolicy Unrestricted
+
+Fonts
+expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
+
+Navegação biblioteca react navigation
+npm install @react-navigation/native
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+npm install @react-navigation/stack
+
+Mapas
+expo install react-native-maps
+
+expo install expo-constants
+expo install react-native-svg
+
+expo install expo-location
+
+Email
+expo install expo-mail-composer
+
+// GET: Buscar uma ou mais informações do back-end
+// POST: Criar uma nova informação no back-end
+// PUT: Atualizar uma informação existente no back-end
+// DELETE: Remover uma infornação do back-end
+
+// POST http://localhost:3333/users => Criar um usuário
+// GET http://localhost:3333/users => Listar usuários
+// GET http://localhost:3333/users/5 => Buscar dados expecificos
+
+// Request Param: Parâmentros que vem na própria rota que identificam um recurso
+// Query Param: Parãmetros geralmente opcionais usados para filtragem ou paginação
+// Request Body: Parâmetros para criação/atualização de informações
+
+// Migrations: Histórico do banco de dados
+
+Validação Front-end Usar (yup)
+Validação Back-end Usar (celebrate)
+
